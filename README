@@ -1,0 +1,17 @@
+This sample demostrates how to use autoconf as simple as possible.
+It builds 2 applications. 
+1. Application hello print "Hello World!", 
+2. Application hellolib prints "Hello Lib!".
+
+Demo features include:
+1. multiple directories
+2. shared library
+3. release header files
+4. conditional building
+
+Manipulation
+1. generate configure script
+   source autogen.sh
+2. clean all auto-generated files
+   source clean.sh
+
